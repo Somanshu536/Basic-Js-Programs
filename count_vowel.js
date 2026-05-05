@@ -4,7 +4,7 @@ const countVowels = function(str) {
     for (let ch of str) {
         ch = ch.toLowerCase();
 
-        if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u') {
+        if (ch ==='a'||ch ==='e'||ch ==='i'||ch==='o'||ch==='u') {
             count++;
         }
     }
